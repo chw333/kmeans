@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot  as plt
@@ -30,3 +29,4 @@ Kmean.labels_
 test = np.array([-3.0,3.0])
 test1 = test.reshape(1,-1)
 Kmean.predict(test1)
+
